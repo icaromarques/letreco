@@ -119,7 +119,7 @@ export function StatisticsView() {
         </div>
 
         <div className="col-5 d-flex flex-column text-center justify-content-center">
-          <span>próximo letreco em:</span>
+          <span>próximo Alphabeto em:</span>
           <h4>{ countdown }</h4>
         </div>
       </div>

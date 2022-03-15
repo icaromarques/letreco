@@ -20,7 +20,7 @@ export function getNormalEndGameMessage(
     return guess.map(letter => NORMAL_MODE_EMOJIS[letter.state]).join('') + '\n';
   }).join('');
 
-  message += '\njogue agora em alphabeto.herokuapp.com/';
+  message += '\njogue agora em https://alphabeto.herokuapp.com/';
 
   return message;
 }

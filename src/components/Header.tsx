@@ -7,7 +7,7 @@ import SettingsScreen from './SettingsScreen';
 import { GlobalSettingsContext } from '../hooks/useGlobalSettings';
 import { StatisticsScreen } from './StatisticsScreen';
 
-const APP_NAME = 'LETRECO';
+const APP_NAME = 'ALPHABETO';
 const TWITTER_URL = 'https://twitter.com/meuletreco';
 
 function Header() {
@@ -57,13 +57,7 @@ function Header() {
         >
           <BsQuestionLg />
         </button>
-
-        <button
-          className='header-button rounded d-flex align-items-center justify-content-center py-2'
-          onClick={() => window.open(TWITTER_URL, '_blank')}
-        >
-          <BsTwitter />
-        </button>
+                
       </div>
 
       <h1 className="text-center mb-0 app-name">{appName}</h1>

@@ -1,6 +1,6 @@
 {
-  "short_name": "Letreco",
-  "name": "Letreco - um jogo diário de adivinhar palavras",
+  "short_name": "Alphabeto",
+  "name": "Alphabeto - um jogo diário (e limitado) de adivinhar palavras do cotidiano Alphadog",
   "icons": [
     {
       "src": "icons/48x48.png",

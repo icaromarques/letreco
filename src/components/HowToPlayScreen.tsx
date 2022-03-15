@@ -33,7 +33,7 @@ function HowToPlayScreen(props: OverlayScreenProps) {
         <h1 className="text-center">COMO JOGAR</h1>
 
         <p className="text-center">
-          Todos os dias, uma nova palavra aparecerá no Letreco para você adivinhar.<br/>
+          Todos os dias, uma nova palavra do vocabulário alphadogs aparecerá no Alphabeto para você adivinhar.<br/>
           Você terá 6 tentativas. Cada uma delas deve ser uma palavra que exista.<br/>
           Acentos e cedilha são ignorados, tanto nas tentativas, quanto na resposta.<br/>
           Após chutar, as letras mudarão para indicar o quão perto você está da resposta.
@@ -57,9 +57,9 @@ function HowToPlayScreen(props: OverlayScreenProps) {
         </div>
 
         <p className="text-center credits">
-          criado por <a href="https://gabtoschi.com" target="_blank" rel="noreferrer">Gabriel Toschi</a><br/>
+          criado por <a href="https://twitter.com/icarequinha" target="_blank" rel="noreferrer">Icaro Afonso</a><br/>          
           banco de palavras por <a href="https://pt-br.libreoffice.org/projetos/vero" target="_blank" rel="noreferrer">VERO</a><br/>
-          versão brasileira não-oficial do <a href="https://www.powerlanguage.co.uk/wordle/" target="_blank" rel="noreferrer">Wordle</a><br/>
+          versão não-oficial do <a href="https://www.gabtoschi.com/letreco" target="_blank" rel="noreferrer">Letreco - Gabriel Toschi</a><br/>
           powered by <a href="https://pt-br.reactjs.org/" target="_blank" rel="noreferrer">React</a>, <a href="https://getbootstrap.com/" target="_blank" rel="noreferrer">Bootstrap</a>, <a href="https://pages.github.com/" target="_blank" rel="noreferrer">GitHub Pages</a><br/>
         </p>
 

@@ -14,7 +14,7 @@ export function getNormalEndGameMessage(
   guesses: GuessLetter[][],
   isGameWon: boolean,
 ): string {
-  let message = `${edition} (${isGameWon ? guesses.length : 'X'}/6) @MeuLetreco \n\n`;
+  let message = `${edition} (${isGameWon ? guesses.length : 'X'}/6) @icarequinha \n\n`;
 
   message += guesses.map(guess => {
     return guess.map(letter => NORMAL_MODE_EMOJIS[letter.state]).join('') + '\n';
